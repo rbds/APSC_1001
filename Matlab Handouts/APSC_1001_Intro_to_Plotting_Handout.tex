@@ -74,5 +74,37 @@
 
 \maketitle % Print the title
 
+\subsection{Useful Functions}
+There are a few functions that are in MATLAB which are not specific to plotting, but will be both helpful and frequently used.
+
+\begin{itemize}
+\item \textbf{help \textit{function}} In the MATLAB command window, you can type \textit{help} then the name of any function. This will bring up documentation on the different uses for that function, the arguments it takes, what it returns, and often example uses and related functions. Further help and documentation is available online, or by typing \textit{doc} plus the name of the function. 
+\item \textbf{linspace(m,n,N)} The linspace function creates an array of size $m \times n$ with $N$ linearly spaced entries.
+\begin{verbatim}
+>>t = linspace(0, 1, 11) %notice that 11 numbers are required to create 10 steps between 0 and 1 
+t =
+  Columns 1 through 7
+         0    0.1000    0.2000    0.3000    0.4000    0.5000    0.6000
+
+  Columns 8 through 11
+    0.7000    0.8000    0.9000    1.0000
+\end{verbatim} 
+ 
+\item \textbf{colon operator}	The colon, :, is used in Matlab to denote ranges of numbers. It can also be used to create arrays. The command:
+\begin{verbatim}
+>>t = 0:0.1:1	
+\end{verbatim} 
+will create an array with entries ranging from 0 to 1 in step sizes of 0.1. 
+This will have the same output as the previous \textit{linspace(m, n, N)} example
+\end{itemize}
+
+\subsection{Plot Command}
+The plot command in MATLAB looks like the following: 
+\mcode{plot(x, y, optional_arguments)}
+In order to plot arrays in Matlab, they must be of the same length.
+The optional arguments cover 
+
+
+
 
 \end{document}

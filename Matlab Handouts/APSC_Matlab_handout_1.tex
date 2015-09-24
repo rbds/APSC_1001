@@ -28,11 +28,10 @@
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
 \usepackage{sectsty} % Allows customizing section commands
-\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+\allsectionsfont{\normalfont\scshape} % Make all sections centered, the default font and small caps
 
 \usepackage{graphicx}
 \usepackage[numbered, autolinebreakds, useliterate]{mcode}
-%\usepackage{filecontents}% http://ctan.org/pkg/filecontents
 
 \usepackage{fancyhdr} % Custom headers and footers
 \pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
@@ -143,12 +142,67 @@ From experience, this will save many long and painfully frustrating hours in the
 \textbf{Now it's time to practice programming:}
 
 \begin{itemize}
-\item[Creating row and column vectors]
-\
+\item \textbf{Creating row and column vectors}
+\begin{verbatim}
+>>x = [2 4 5]	%x is a row vector with 3 elements
+x =
+ 2 4 5
+ 
+>>y = [2; 4; 5]	%y is a column vector with 3 elements
+y =
+ 2
+ 4
+ 5 
+\end{verbatim}
+
+\item \textbf{Simple arithmetic operations on vectors}
+\begin{verbatim}
+>>z = [3 4 6];	 %z is a row vector with 3 elements
+>>a = x + z		 %two vectors o the same size can be added or subtracted
+a = 
+ 5 8 11
+ 
+>>b = x + y
+??? Error using ==> +
+Matrix dimensions must agree.
+	 %a row vector cannot be added to or subtracted from a column vector. 
+\end{verbatim}
+
+\item \textbf{Doing \textit{array} operations}
+Term by term multiplication happens using the array operator, represented by a dot before the arithmetic operator (e.g. '.*').
+\begin{verbatim}
+	>>a = x.*z	 %multiply each term in two vectors of the same size
+	%using the array operator (.*)
+a = 
+ 6 16 30
+ 
+	>>b = 2*a 	 %the array operator is not required to multiply by a scalar
+	b=
+	 12 32 60
+\end{verbatim}
+
+
+\item \textbf{Using trigonometric or simple math functions with array arguments}
+\begin{verbatim}
+>>x = [0 pi/4 pi/2];
+>>y = sin(x)
+y = 
+ 0 0.7071 1
+ 
+>>z = sqrt(y)
+z = 
+ 0 0.8409 1
+\end{verbatim}
+
 
 \end{itemize}
 
 
 %----------------------------------------------------------------------------------------
+\newpage
+\section*{\textbf{References}}
+[1] Pratap, R., \textit{Getting Started with MATLAB 5 - A Quick Introduction for Scientists and Engi-
+neers}, Oxford University Press, 1999.\\
 
+[2] Kreyszig, E., \textit{Advanced Engineering Mathematics}, 8th ed., John Wiley \& Sons, Inc., 1999.
 \end{document}

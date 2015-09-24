@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.16)  23 SEP 2015 21:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.16)  23 SEP 2015 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**APSC_Matlab_handout_1.tex
-(./APSC_Matlab_handout_1.tex
+**APSC_1001_Intro_to_Plotting_Handout.tex
+(./APSC_1001_Intro_to_Plotting_Handout.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -223,15 +223,33 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(./mcode.sty
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen115
+\lightrulewidth=\dimen116
+\cmidrulewidth=\dimen117
+\belowrulesep=\dimen118
+\belowbottomsep=\dimen119
+\aboverulesep=\dimen120
+\abovetopsep=\dimen121
+\cmidrulesep=\dimen122
+\cmidrulekern=\dimen123
+\defaultaddspace=\dimen124
+\@cmidla=\count103
+\@cmidlb=\count104
+\@aboverulesep=\dimen125
+\@belowrulesep=\dimen126
+\@thisruleclass=\count105
+\@lastruleclass=\count106
+\@thisrulewidth=\dimen127
+) (./mcode.sty
 -- Package: `mcode' 2.5 <2014/03/06> --
 Package: mcode 2014/03/06 2.5
-
-Package mcode Warning: Unknown option `autolinebreakds' ! on input line 137.
-
  - settings optimized for display (colour formating)
  - line numbering enabled
  - literate programming (character replacements) enabled
+ - automatic line breaking enabled (careful, buggy!)
+ - framed listings
 (/usr/share/texmf/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
@@ -250,23 +268,23 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count103
+\lst@mode=\count107
 \lst@gtempboxa=\box29
 \lst@token=\toks26
-\lst@length=\count104
-\lst@currlwidth=\dimen115
-\lst@column=\count105
-\lst@pos=\count106
-\lst@lostspace=\dimen116
-\lst@width=\dimen117
-\lst@newlines=\count107
-\lst@lineno=\count108
-\lst@maxwidth=\dimen118
+\lst@length=\count108
+\lst@currlwidth=\dimen128
+\lst@column=\count109
+\lst@pos=\count110
+\lst@lostspace=\dimen129
+\lst@width=\dimen130
+\lst@newlines=\count111
+\lst@lineno=\count112
+\lst@maxwidth=\dimen131
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
-\c@lstnumber=\count109
-\lst@skipnumbers=\count110
+\c@lstnumber=\count113
+\lst@skipnumbers=\count114
 \lst@framebox=\box30
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -354,6 +372,12 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+\lbreakdots=\box31
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 229.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ))
 
 Class scrartcl Warning: Usage of package `fancyhdr' together
@@ -361,7 +385,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              I'd suggest to use 
 (scrartcl)              package `scrpage2' or `scrlayer-scrpage'.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 37.
+(scrartcl)              package `fancyhdr' on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip54
@@ -374,41 +398,41 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 \f@ncyO@olf=\skip61
 \f@ncyO@orf=\skip62
 )
-(./APSC_Matlab_handout_1.aux)
-\openout1 = `APSC_Matlab_handout_1.aux'.
+(./APSC_1001_Intro_to_Plotting_Handout.aux)
+\openout1 = `APSC_1001_Intro_to_Plotting_Handout.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 73.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    ... okay on input line 73.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
-\scratchdimen=\dimen119
-\scratchbox=\box31
-\nofMPsegments=\count112
-\nofMParguments=\count113
+\scratchcounter=\count115
+\scratchdimen=\dimen132
+\scratchbox=\box32
+\nofMPsegments=\count116
+\nofMParguments=\count117
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count114
-\MPscratchDim=\dimen120
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen133
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -458,24 +482,36 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count117
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 74.
+\c@lstlisting=\count121
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 74.
+LaTeX Font Info:    Try loading font information for U+msa on input line 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 74.
+LaTeX Font Info:    Try loading font information for U+msb on input line 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 81--85
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 83.
 
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Overfull \hbox (152.32312pt too wide) in paragraph at lines 91--91
+ []\T1/cmtt/m/n/10.95 >>t = linspace(0, 1, 11) %notice that 11 numbers are requ
+ired to create 10 steps between 0 and 1[] 
+ []
+
+
+Overfull \hbox (5.20547pt too wide) in paragraph at lines 91--91
+ []         \T1/cmtt/m/n/10.95 0    0.1000    0.2000    0.3000    0.4000    0.5
+000    0.6000[] 
  []
 
 [1
@@ -484,78 +520,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--85
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<matlab_screenshot.png, id=13, 1911.14pt x 901.3675pt>
-File: matlab_screenshot.png Graphic file (type png)
-
-<use matlab_screenshot.png>
-Package pdftex.def Info: matlab_screenshot.png used on input line 119.
-(pdftex.def)             Requested size: 477.78383pt x 225.34131pt.
-
-Overfull \hbox (59.52827pt too wide) in paragraph at lines 119--120
- [][] 
+Overfull \hbox (26.74625pt too wide) in paragraph at lines 102--105
+\T1/cmr/m/n/10.95 The plot com-mand in MAT-LAB looks like the fol-low-ing: [][]
+[][][][][][][][][][][][][][]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
-
- []
-
-[2 <./matlab_screenshot.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 132--135
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--141
-
- []
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 146.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [3]
-Overfull \hbox (10.86385pt too wide) in paragraph at lines 182--182
- []\T1/cmtt/m/n/10.95 >>b = 2*a   %the array operator is not required to multip
-ly by a scalar[] 
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 204--206
-
- []
-
-[5] (./APSC_Matlab_handout_1.aux) ) 
+[2] (./APSC_1001_Intro_to_Plotting_Handout.aux) ) 
 Here is how much of TeX's memory you used:
- 6780 strings out of 493304
- 96792 string characters out of 6139871
- 297788 words of memory out of 5000000
- 10113 multiletter control sequences out of 15000+600000
- 24909 words of font info for 63 fonts, out of 8000000 for 9000
+ 6910 strings out of 493304
+ 98509 string characters out of 6139871
+ 297605 words of memory out of 5000000
+ 10240 multiletter control sequences out of 15000+600000
+ 22504 words of font info for 62 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 47i,11n,47p,291b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/c
-m-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfbi1095.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1440.pfb
->
-Output written on APSC_Matlab_handout_1.pdf (5 pages, 351070 bytes).
+ 47i,11n,47p,456b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist
+/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-supe
+r-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfbi1095.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on APSC_1001_Intro_to_Plotting_Handout.pdf (2 pages, 172830 byte
+s).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
