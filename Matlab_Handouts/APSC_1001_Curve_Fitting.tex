@@ -112,11 +112,15 @@ Type the following into MATLAB.
 \begin{verbatim}
 >> x = linspace(0,100,101); %create initial data
 >> y_actual = 2.5*x + 17; %function of x
->> rnums = 0.5*randn(1, 101); %random numbers with a zero mean (no bias)
+>> rnums = 15*randn(1, 101); %random numbers with a zero mean (no bias)
 >> y_test = y_actual + rnums; %create 'test' data.
 \end{verbatim}
 
 Now we'll use the curve fitting toolbox to see if we can get the correct function from our test data.
+\begin{verbatim}
+>> cftool(x, y_test)
+\end{verbatim}
 
+This brings up the curve fitting GUI. 
 
 \end{document}
