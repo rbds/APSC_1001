@@ -1,0 +1,122 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Sectioned Assignment
+% LaTeX Template
+% Version 1.0 (5/5/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+%\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{ \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{	
+\normalfont \normalsize 
+\textsc{APSC 1001, George Washington University} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge APSC 1001 MATLAB Curve Fitting Tools \\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{\normalsize Randy Schur } % Your name
+
+%\normalsize Week 1 Handout
+\date{\normalsize \today } % Today's date or a custom date
+
+
+\begin{document}
+
+\maketitle % Print the title
+
+\section{Sampling Data}
+An valuable part of your toolbox of engineering skills is testing, data collection, and analysis.
+Much of what scientists and engineers study was originally discovered by experimentation and the analysis of experimental data.
+The ability to decipher some meaning from the data you collect is something you will rely on throughout your engineering career. 
+
+\subsection{Signal Analysis}
+Many textbooks have been written on the analysis of different types of signals, and we won't go into great detail in this class.
+Some common examples of applications that demand signal analysis are circuit design and radio frequency (RF) work in electrical engineering, image processing in computer science, wind or water tunnel experiments in mechanical or aerospace engineering, and earthquake movement in civil engineering. 
+
+Often, the signals we see are repeating. 
+We call this \textit{periodic}, meaning that the signal is repetitive and has a measurable period, or length of time between cycles.
+The simplest example of a periodic signal is a sine wave. 
+In fact, any periodic signal may be replicated using only sine (or cosine) waves of different frequencies!
+This is a surprising and extremely important result in many fields of mathematics and engineering. 
+Breaking a signal up into its component frequencies is called a Fourier Transform, named after Joseph Fourier who (sort of) discovered that periodic, or \textit{sinusoidal}, functions can be approximated by sine waves.
+It is something that you will likely discuss in several classes during your studies.  
+
+\subsection{Statistical Approximations}
+Not all data that we collect is from a periodic signal. Sometimes we have a single process, and we test it multiple times while changing one or more variables. 
+An example of a data collection task like this might be testing for when a particular component fail. 
+You might vary the loading on that component, and run the test multiple times. 
+Once you have collected data from multiple runs of the experiment, you might try to find the how the failure of the component depends on the loading. 
+You are looking for a \textit{function} for failure in terms of loading. 
+Because we can't perfectly control any experiment, there will be some element of randomness to the data you collect. 
+However, using some statistical tools, it it often possible to find a relationship between the two (or more) variables that you observing.
+This process is called \textit{curve fitting}.
+
+\section{Curve Fitting in MATLAB}
+MATLAB provides several built in functions that can help with curve fitting.
+We are going to use a tool with a nice GUI called cftool.
+See the example below to learn how to use this tool.
+
+One way we can test the tool is to make up a function, inject some randomness in order to model 'experimental' data, and then see if we can find the original function.
+
+Type the following into MATLAB.
+\begin{verbatim}
+>> x = linspace(0,100,101); %create initial data
+>> y_actual = 2.5*x + 17; %function of x
+>> rnums = 0.5*randn(1, 100); %random numbers with a zero mean (no bias)
+>> y_test = y_actual + rnums; %create 'test' data.
+\end{verbatim}
+
+Now we'll use the curve fitting toolbox to see if we can get the correct function from our test data.
+
+
+\end{document}
