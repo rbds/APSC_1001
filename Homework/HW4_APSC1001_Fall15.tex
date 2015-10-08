@@ -29,33 +29,31 @@
 \renewcommand\part[1]{\vspace{.10in}\textbf{(#1)}}
 \pagestyle{fancyplain}
 \lhead{\Large \textbf{APSC 1001}}
-\chead{\LARGE \textbf{HW3}}
-\rhead{Due: 10/16/15}
+\chead{\LARGE \textbf{HW4}}
+\rhead{Due: 10/23/15}
 \begin{document}\raggedright
 
-\question{1}{Functions} 
-Your functions should have the help comments filled out as well as comments throughout the file.
+\question{1}{For Loop} 
 
-\part{a} Create a function that takes as input distance in meters and outputs distance in inches.
+Fibonacci numbers describe a series of numbers where each entry is the sum of the previous two entries. The most famous example starts with 0 and 1 and looks like this: [0 1 1 2 3 5 8 13 21 ...]. However, a series of Fibonacci numbers can begin with any two values. 
 
-\part{b} Create a function that takes as input mass in kilograms and outputs weight in pounds.
+\part{a} Create a function that takes as input two values and outputs a vector with the first 10 values in the Fibonnaci sequence beginning with the input values.
 
-\part{c} Create a script that tests each of your functions. 
-The input to the function in part a should be the vector [72 63 57 46 12 1]. 
-The input to the funtion in part b should be [12 16 18 32 46 1].
+\part{b} Create a script that tests your function with the input (4,6). 
 
-The functions cannot be defined within your script, but should be saved in the same location as your script. You will turn in a single .pdf with all questions answered, plus separate .m function files. 
+\question{2}{While loop}
+A converging infinite series is one whose terms sum to a finite value. One mathematically interesting example is the following: 
+\begin{equation}
+\sum_{n=1}^{\infty} \frac{1}{n^2} \approx \frac{\pi^2}{6}
+\end{equation}
 
-\question{2}{If Statements}
-\part{a} Create a 1x100 vector of random numbers with a Gaussian distribution and a mean of 1.
-Find the actual mean of the entries in this vector. 
-Using an if statement, output to the command line what the mean is and whether it is less than, greater than, or equal to 1.
+\part{a} Write a script which calculates how many terms are needed to approximate the limit within an error of $10^{-6}$. 
+Be sure to print out the total number of terms to the command window.
 
 \vspace{1.0em}
 \textbf{Directions}
 Both questions should be answered in a single script using cell mode. Please see the example MATLAB files that have been posted to Blackboard from past weeks for examples in formatting. Any functions will be turned in as separate .m files.
 
 You must turn this assignment in to Blackboard as a published pdf. Create a script to complete the homework assignment, taking care to control what is output to the command window. The code should be \textbf{well commented} so that it is easy to follow along. 
-
 
 \end{document}
