@@ -1,0 +1,62 @@
+﻿Merge branch 'master' of https://github.com/rbds/APSC_1001
+
+Conflicts:
+	Matlab_Handouts/APSC_1001_Curve_Fitting.aux
+	Matlab_Handouts/APSC_1001_Curve_Fitting.log
+	Matlab_Handouts/APSC_1001_Curve_Fitting.pdf
+	Matlab_Handouts/APSC_1001_Curve_Fitting.synctex.gz
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 7 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	deleted:    .~lock.Schedule - 2015.xlsx#
+#	new file:   Homework/HW3_APSC1001_Fall15.aux
+#	new file:   Homework/HW3_APSC1001_Fall15.log
+#	new file:   Homework/HW3_APSC1001_Fall15.pdf
+#	new file:   Homework/HW3_APSC1001_Fall15.synctex.gz
+#	new file:   Homework/HW3_APSC1001_Fall15.tex
+#	new file:   Homework/HW3_solutions.m
+#	new file:   Homework/HW4_APSC1001_Fall15.aux
+#	new file:   Homework/HW4_APSC1001_Fall15.log
+#	new file:   Homework/HW4_APSC1001_Fall15.pdf
+#	new file:   Homework/HW4_APSC1001_Fall15.synctex.gz
+#	new file:   Homework/HW4_APSC1001_Fall15.tex
+#	new file:   Homework/HW4_solutions.m
+#	new file:   Homework/fib.m
+#	new file:   Homework/kg_to_lb.m
+#	new file:   Homework/meters_to_inches.m
+#	modified:   Matlab_Handouts/APSC_1001_Curve_Fitting.aux
+#	modified:   Matlab_Handouts/APSC_1001_Curve_Fitting.log
+#	new file:   Matlab_Handouts/APSC_1001_For_and_While_Loops.aux
+#	new file:   Matlab_Handouts/APSC_1001_For_and_While_Loops.log
+#	new file:   Matlab_Handouts/APSC_1001_For_and_While_Loops.pdf
+#	new file:   Matlab_Handouts/APSC_1001_For_and_While_Loops.synctex.gz
+#	new file:   Matlab_Handouts/APSC_1001_For_and_While_Loops.tex
+#	new file:   Matlab_Handouts/APSC_1001_Functions_and_Flow_Control.aux
+#	new file:   Matlab_Handouts/APSC_1001_Functions_and_Flow_Control.log
+#	new file:   Matlab_Handouts/APSC_1001_Functions_and_Flow_Control.pdf
+#	new file:   Matlab_Handouts/APSC_1001_Functions_and_Flow_Control.synctex.gz
+#	new file:   Matlab_Handouts/APSC_1001_Functions_and_Flow_Control.tex
+#	new file:   Matlab_Handouts/HW3_solutions.m
+#	new file:   Matlab_Handouts/for_loop_example.m
+#	new file:   Matlab_Handouts/for_loop_example_2.m
+#	new file:   Matlab_Handouts/function_example.m
+#	new file:   Matlab_Handouts/grade_calc.m
+#	new file:   Matlab_Handouts/if_example.m
+#	new file:   Matlab_Handouts/triangle.m
+#	new file:   Matlab_Handouts/while_loop_example.m
+#
+

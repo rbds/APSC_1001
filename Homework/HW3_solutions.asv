@@ -1,10 +1,13 @@
-%% APSC 1001 Homework 4 Solutions
+%% APSC 1001 Homework 3 Solutions
 % Randy Schur
 % Fall 2015
 
 %% Problem 1
-my_series = fib(4,6)
+%part a 
+v1 = [72 63 57 46 12 1];
+v2 = [12 16 18 32 46 1];
 
+part_a = meters_to_inches(v
 
 %% Problem 2
 error = 1; %initialize error
@@ -15,5 +18,4 @@ while (error > 1e-6)    %set up while loop
     error = pi^2/6 - t; %calculate error
     n = n+1;            %advance index
 end
-num_of_iterations = n-1 %print total number of iterations. Should be 1x10^6.
-
+n-1 %
