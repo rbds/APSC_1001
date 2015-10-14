@@ -1,0 +1,59 @@
+%=======================02-713 LaTeX template, following the 15-210 template==================
+%
+% You don't need to use LaTeX or this template, but you must turn your homework in as
+% a typeset PDF somehow.
+%
+% How to use:
+%    1. Update your information in section "A" below
+%    2. Write your answers in section "B" below. Precede answers for all 
+%       parts of a question with the command "\question{n}{desc}" where n is
+%       the question number and "desc" is a short, one-line description of 
+%       the problem. There is no need to restate the problem.
+%    3. If a question has multiple parts, precede the answer to part x with the
+%       command "\part{x}".
+%    4. If a problem asks you to design an algorithm, use the commands
+%       \algorithm, \correctness, \runtime to precede your discussion of the 
+%       description of the algorithm, its correctness, and its running time, respectively.
+%    5. You can include graphics by using the command \includegraphics{FILENAME}
+%
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+%\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 1pt}
+\setlength{\headheight}{16pt}
+\newcommand\question[2]{\vspace{.25in}\textbf{#1: #2}\vspace{.5em}\hrule\vspace{.10in}}
+\renewcommand\part[1]{\vspace{.10in}\textbf{(#1)}}
+\pagestyle{fancyplain}
+\lhead{\Large \textbf{APSC 1001}}
+\chead{\LARGE \textbf{HW4}}
+\rhead{Due: 10/23/15}
+\begin{document}\raggedright
+
+\question{1}{For Loop} 
+
+Fibonacci numbers describe a series of numbers where each entry is the sum of the previous two entries. The most famous example starts with 0 and 1 and looks like this: [0 1 1 2 3 5 8 13 21 ...]. However, a series of Fibonacci numbers can begin with any two values. 
+
+\part{a} Create a function that takes as input two values and outputs a vector with the first 10 values in the Fibonnaci sequence beginning with the input values.
+
+\part{b} Create a script that tests your function with the input (4,6). 
+
+\question{2}{While loop}
+A converging infinite series is one whose terms sum to a finite value. One mathematically interesting example is the following: 
+\begin{equation}
+\sum_{n=1}^{\infty} \frac{1}{n^2} \approx \frac{\pi^2}{6}
+\end{equation}
+
+\part{a} Write a script which calculates how many terms are needed to approximate the limit within an error of $10^{-6}$. 
+Be sure to print out the total number of terms to the command window.
+
+\vspace{1.0em}
+\textbf{Directions}
+Both questions should be answered in a single script using cell mode. Please see the example MATLAB files that have been posted to Blackboard from past weeks for examples in formatting. Any functions will be turned in as separate .m files.
+
+You must turn this assignment in to Blackboard as a published pdf. Create a script to complete the homework assignment, taking care to control what is output to the command window. The code should be \textbf{well commented} so that it is easy to follow along. 
+
+\end{document}

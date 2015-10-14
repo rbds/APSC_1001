@@ -1,51 +1,9 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.29)  2 OCT 2015 09:08
-entering extended mode
-**APSC_1001_Curve_Fitting.tex
-
-("C:\Users\Randy Schur\Documents\GitHub\APSC_1001\Matlab_Handouts\APSC_1001_Cur
-ve_Fitting.tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
-Document Class: scrartcl 2012/07/29 v3.11b KOMA-Script document class (article)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
-Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
-basics and keyval usage)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
-Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
- basics and keyval usage)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
-Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
-
-Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
-                  Copyright (C) Markus Kohm
-
-))) ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
-Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.16)  1 OCT 2015 23:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.16)  7 OCT 2015 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**APSC_1001_Curve_Fitting.tex
-(./APSC_1001_Curve_Fitting.tex
+**APSC_1001_For_and_While_Loops.tex
+(./APSC_1001_For_and_While_Loops.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -70,7 +28,6 @@ Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
 
 ))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
 Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
@@ -82,18 +39,6 @@ Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 117.
 Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
-<<<<<<< HEAD
-ine 1267.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo"
-File: scrsize11pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (11p
-t)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
-Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
-
-Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
-=======
 ine 1531.
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
@@ -104,7 +49,6 @@ File: scrsize11pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (11pt
 Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
 
 Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -113,10 +57,7 @@ Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
 \ta@hblk=\skip42
 \ta@vblk=\skip43
 \ta@temp=\skip44
-<<<<<<< HEAD
-=======
 \footheight=\skip45
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 0.0pt
@@ -131,15 +72,9 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \headheight     = 17.0pt
 (typearea)              \headsep        = 20.40001pt
 (typearea)              \topskip        = 11.0pt
-<<<<<<< HEAD
-(typearea)              \footskip       = 47.60002pt
-(typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1213.
-=======
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 1330.
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 )
 \c@part=\count80
 \c@section=\count81
@@ -147,40 +82,12 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count83
 \c@paragraph=\count84
 \c@subparagraph=\count85
-<<<<<<< HEAD
-\abovecaptionskip=\skip45
-\belowcaptionskip=\skip46
-=======
 \abovecaptionskip=\skip46
 \belowcaptionskip=\skip47
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 \c@pti@nb@sid@b@x=\box26
 \c@figure=\count86
 \c@table=\count87
 \bibindent=\dimen102
-<<<<<<< HEAD
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
-
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
-Language: english 2005/03/30 v3.3o English support from the babel system
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
-=======
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -196,7 +103,6 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2013/12/03 3.9h Babel common definitions
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
@@ -204,17 +110,6 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip47
-
-For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
-Package: amstext 2000/06/29 v2.01
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip48
@@ -224,24 +119,15 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen104
 ))
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen105
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count89
@@ -276,75 +162,26 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \totwidth@=\dimen111
 \lineht@=\dimen112
 \@envbody=\toks18
-<<<<<<< HEAD
-\multlinegap=\skip48
-\multlinetaggap=\skip49
-=======
 \multlinegap=\skip49
 \multlinetaggap=\skip50
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks20
 \thm@bodyfont=\toks21
 \thm@headfont=\toks22
 \thm@notefont=\toks23
 \thm@headpunct=\toks24
-<<<<<<< HEAD
-\thm@preskip=\skip50
-\thm@postskip=\skip51
-\thm@headsep=\skip52
-\dth@everypar=\toks25
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
-Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count101
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\sectsty\sectsty.sty"
-Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
-les
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-=======
 \thm@preskip=\skip51
 \thm@postskip=\skip52
 \thm@headsep=\skip53
@@ -379,7 +216,6 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count102
@@ -387,11 +223,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen115
 \lightrulewidth=\dimen116
@@ -410,12 +242,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisruleclass=\count105
 \@lastruleclass=\count106
 \@thisrulewidth=\dimen127
-<<<<<<< HEAD
-)
-("C:\Users\Randy Schur\Documents\GitHub\APSC_1001\Matlab_Handouts\mcode.sty"
-=======
 ) (./mcode.sty
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 -- Package: `mcode' 2.5 <2014/03/06> --
 Package: mcode 2014/03/06 2.5
  - settings optimized for display (colour formating)
@@ -423,17 +250,10 @@ Package: mcode 2014/03/06 2.5
  - literate programming (character replacements) enabled
  - automatic line breaking enabled (careful, buggy!)
  - framed listings
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-=======
 (/usr/share/texmf/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -447,11 +267,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 \lst@mode=\count107
 \lst@gtempboxa=\box29
 \lst@token=\toks26
@@ -465,32 +281,18 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 \lst@lineno=\count112
 \lst@maxwidth=\dimen131
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 \c@lstnumber=\count113
 \lst@skipnumbers=\count114
 \lst@framebox=\box30
 )
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2007/02/22 1.4 listings configuration
-))
-Package: listings 2007/02/22 1.4 (Carsten Heinz)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
 Package: listings 2013/08/26 1.5b (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -505,11 +307,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -578,24 +376,6 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 \lbreakdots=\box31
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 229.
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-\fancy@headwidth=\skip53
-\f@ncyO@elh=\skip54
-\f@ncyO@erh=\skip55
-\f@ncyO@olh=\skip56
-\f@ncyO@orh=\skip57
-\f@ncyO@elf=\skip58
-\f@ncyO@erf=\skip59
-\f@ncyO@olf=\skip60
-\f@ncyO@orf=\skip61
-)
-("C:\Users\Randy Schur\Documents\GitHub\APSC_1001\Matlab_Handouts\APSC_1001_Cur
-ve_Fitting.aux")
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ))
@@ -618,10 +398,9 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 \f@ncyO@olf=\skip61
 \f@ncyO@orf=\skip62
 )
-No file APSC_1001_Curve_Fitting.aux.
-\openout1 = `APSC_1001_Curve_Fitting.aux'.
+(./APSC_1001_For_and_While_Loops.aux)
+\openout1 = `APSC_1001_For_and_While_Loops.aux'.
 
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
@@ -636,20 +415,13 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 73.
-<<<<<<< HEAD
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
-=======
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 73.
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-=======
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen132
@@ -662,12 +434,6 @@ LaTeX Font Info:    ... okay on input line 73.
 \MPnumerator=\count119
 \makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks28
-<<<<<<< HEAD
-)
-\c@lstlisting=\count121
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 76.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
-=======
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -720,107 +486,77 @@ e
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 76.
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 76.
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-
-<<<<<<< HEAD
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 112.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<cftool_screenshot.png, id=11, 715.17188pt x 523.9575pt>
-File: cftool_screenshot.png Graphic file (type png)
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
-<use cftool_screenshot.png>
-Package pdftex.def Info: cftool_screenshot.png used on input line 137.
-(pdftex.def)             Requested size: 464.8562pt x 340.56834pt.
-
-Overfull \hbox (46.60065pt too wide) in paragraph at lines 137--138
- [][] 
  []
 
+(./for_loop_example.m
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)) [1
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2] [3 <C:/Users/Randy Schur/Documents/GitHub/APSC_1001/Matlab_Handouts/cftool_
-screenshot.png>] [4]
-("C:\Users\Randy Schur\Documents\GitHub\APSC_1001\Matlab_Handouts\APSC_1001_Cur
-ve_Fitting.aux") ) 
-Here is how much of TeX's memory you used:
- 6214 strings out of 493921
- 86248 string characters out of 3147264
- 261108 words of memory out of 3000000
- 9415 multiletter control sequences out of 15000+200000
- 18690 words of font info for 44 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 38i,11n,47p,329b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-supe
-r-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfcc1095.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfcc1200.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfcc1440.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/cm-super/sfti1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/cm-super/sftt1095.pfb>
-Output written on APSC_1001_Curve_Fitting.pdf (4 pages, 177865 bytes).
-PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 112.
+(./for_loop_example_2.m)
+Underfull \hbox (badness 10000) in paragraph at lines 102--106
 
+ []
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+(./while_loop_example.m)
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+
+ []
+
+[2]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 122.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [2]
-(./APSC_1001_Curve_Fitting.aux) ) 
+)
+Overfull \hbox (23.09738pt too wide) in paragraph at lines 123--123
+[] \T1/cmtt/m/n/10.95 http://www.mathworks.com/help/matlab/matlab_prog/loop-con
+trol-statements.html 
+ []
+
+[3] (./APSC_1001_For_and_While_Loops.aux) ) 
 Here is how much of TeX's memory you used:
- 6832 strings out of 493304
- 97582 string characters out of 6139871
- 298597 words of memory out of 5000000
- 10171 multiletter control sequences out of 15000+600000
- 18690 words of font info for 44 fonts, out of 8000000 for 9000
+ 6954 strings out of 493304
+ 99205 string characters out of 6139871
+ 344595 words of memory out of 5000000
+ 10272 multiletter control sequences out of 15000+600000
+ 21492 words of font info for 60 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 47i,11n,47p,328b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-
-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sftt1095.pfb>
-Output written on APSC_1001_Curve_Fitting.pdf (2 pages, 126858 bytes).
+ 47i,12n,47p,338b,1212s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm
+-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.e
+nc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8
+a.pfb>
+Output written on APSC_1001_For_and_While_Loops.pdf (3 pages, 148392 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 68c881a684c970e987d17913071dbef0ca59a112
 
