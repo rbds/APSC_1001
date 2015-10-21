@@ -1,0 +1,56 @@
+%=======================02-713 LaTeX template, following the 15-210 template==================
+%
+% You don't need to use LaTeX or this template, but you must turn your homework in as
+% a typeset PDF somehow.
+%
+% How to use:
+%    1. Update your information in section "A" below
+%    2. Write your answers in section "B" below. Precede answers for all 
+%       parts of a question with the command "\question{n}{desc}" where n is
+%       the question number and "desc" is a short, one-line description of 
+%       the problem. There is no need to restate the problem.
+%    3. If a question has multiple parts, precede the answer to part x with the
+%       command "\part{x}".
+%    4. If a problem asks you to design an algorithm, use the commands
+%       \algorithm, \correctness, \runtime to precede your discussion of the 
+%       description of the algorithm, its correctness, and its running time, respectively.
+%    5. You can include graphics by using the command \includegraphics{FILENAME}
+%
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+%\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 1pt}
+\setlength{\headheight}{16pt}
+\newcommand\question[2]{\vspace{.25in}\textbf{#1: #2}\vspace{.5em}\hrule\vspace{.10in}}
+\renewcommand\part[1]{\vspace{.10in}\textbf{(#1)}}
+\pagestyle{fancyplain}
+\lhead{\Large \textbf{APSC 1001}}
+\chead{\LARGE \textbf{HW4}}
+\rhead{Due: 10/30/15}
+\begin{document}\raggedright
+
+\question{1}{Image Processing} 
+All questions should be answered in a script file using cell mode.
+
+\part{a} Import the image titled 'galaxy\_from\_hubble.jpg'. 
+This is an image taken by the Hubble Telescope, which is super cool.
+
+\part{b} Create matrices that show the red, green, and blue components of this image individually. 
+Display a histogram for each color, labelling the title and axes appropriately. 
+
+\part{c} Convert the image to grayscale.
+Crop that image into four sections, and display the histogram for each section. 
+
+Why would we want to do this? Give one piece of information that we can find this way.
+
+\vspace{1.0em}
+\textbf{Directions}
+All questions should be answered in a single script using cell mode. Please see the example MATLAB files that have been posted to Blackboard from past weeks for examples in formatting. Any functions will be turned in as separate .m files.
+
+You must turn this assignment in to Blackboard as a published pdf. Create a script to complete the homework assignment, taking care to control what is output to the command window. The code should be \textbf{well commented} so that it is easy to follow along. 
+
+\end{document}
